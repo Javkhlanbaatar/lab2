@@ -8,6 +8,8 @@ public class StackList<T> implements Stack <T> {
     private int top;
      
    
+    
+    
     @SuppressWarnings("unchecked")
     public StackList(int newSize) {
         this.size = newSize;
