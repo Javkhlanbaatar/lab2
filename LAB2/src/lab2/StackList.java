@@ -66,8 +66,8 @@ public class StackList<T> implements Stack <T> {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("unused")
-		StackList <String> sll2 = new StackList<String>(10);
-		StackList<Integer> sll = new StackList<Integer>(10);
+		StackList <String> sll2 = new StackList<String>(0);
+		StackList<Integer> sll = new StackList<Integer>(0);
 
 		Scanner sc = new Scanner(System.in);
 		StackList.menu();
@@ -125,7 +125,7 @@ public class StackList<T> implements Stack <T> {
 				}
 					break;
 				case 5: {
-					System.out.println("\t Size of Stack:" + sll.size);
+					System.out.println("\t Size of Stack:" );
 				}
 					break;
 				case 6: {
@@ -141,7 +141,11 @@ public class StackList<T> implements Stack <T> {
 
 	}
 
+	@Override
 	public boolean empty() {
+		// TODO Auto-generated method stub
 		return false;
 	}
+
+	
 }
