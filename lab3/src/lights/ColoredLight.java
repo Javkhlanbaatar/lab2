@@ -2,7 +2,7 @@ package lights;
 
 import java.awt.Color;
 
-public class ColoredLight extends Light{
+public class ColoredLight extends Light {
 
 	// private boolean isOn;
 	private Color colour;
@@ -54,4 +54,5 @@ public class ColoredLight extends Light{
 		// throw new RuntimeException("ColoredLight.randomChange() not yet
 		// implemented!");
 	}
+
 }
