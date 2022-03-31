@@ -27,7 +27,7 @@ public class HolidayLightsWindow extends JFrame {
 	
 	private static final long serialVersionUID = -722257469624438083L;
 	private HolidayLights hl;
-	private static final int millsPerFrame = 350;
+	private static final int millsPerFrame = 150;
 	
 	public HolidayLightsWindow(HolidayLights hl) {
 		// Sets up the title bar

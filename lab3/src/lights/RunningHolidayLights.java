@@ -12,12 +12,12 @@ public class RunningHolidayLights implements HolidayLights {
 	public RunningHolidayLights(int length) {
 		urt = length;
 		for (int i = 0; i < urt; i++) {
-			Light light;
-			list.add(light = new Light());
+			list.add(new Light());
 		}		 
 		next();
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<Light> next() {
 			if (i == 0) {
 				list.get(list.size() - 1).setOn(false);
