@@ -8,6 +8,8 @@ public class LightTest {
 	@Test public void makeOffLight() {
 		Light light = new Light();
 		
+		
+		
 		Assert.assertFalse(light.isOn());
 	}
 	
