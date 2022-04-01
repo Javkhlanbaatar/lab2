@@ -42,6 +42,8 @@ public class StackList<T> implements Stack <T> {
  
     private void increaseStackCapacity(){
          
+    	
+    	
         @SuppressWarnings("unchecked")
         T[] newStack = (T[]) new Object[this.size*2];
         for(int i=0;i<size;i++){
